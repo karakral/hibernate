@@ -2,9 +2,18 @@ package org.karakral.hibernate.dto.request;
 
 public class PhoneDto {
 
+    private long id;
     private String phoneName;
 
     private String os;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public String getPhoneName() {
         return phoneName;
