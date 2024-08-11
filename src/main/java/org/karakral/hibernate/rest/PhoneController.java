@@ -19,7 +19,7 @@ public class PhoneController {
         this.phoneService = phoneService;
     }
 
-    @PostMapping("/save")
+    @PostMapping("/add")
     public ResponseEntity <PhoneDto> addPhone(@RequestBody PhoneDto phoneDto) {
          phoneService.save(phoneDto);
          return null;

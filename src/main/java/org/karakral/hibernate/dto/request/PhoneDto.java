@@ -4,7 +4,6 @@ public class PhoneDto {
 
     private long id;
     private String phoneName;
-
     private String os;
 
     public long getId() {
