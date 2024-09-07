@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "phone")
+//TODO Mahsun craete one to one
+//TODO Mahsun add audience table for each table
 //@EntityListeners(AuditingEntityListener.class)
 public class Phone {
     @Id

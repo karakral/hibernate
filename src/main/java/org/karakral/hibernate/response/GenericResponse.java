@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.Calendar;
 //TODO Mahsun develop homekanuf project with java 22 and use new technologies
 //TODO Mahsun add redis to here
+//TODO Mahsun add ELK
 @Component
 public class GenericResponse <T>{
 
