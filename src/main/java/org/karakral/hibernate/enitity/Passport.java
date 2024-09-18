@@ -15,4 +15,10 @@ public class Passport {
     private String serialNumber;
 
 
+    //One-to-one unidirectional
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "member_id")
+    private Member memberId;
+
+
 }

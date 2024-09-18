@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "member")
 public class Member {
-
+    //add dynamic search
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
@@ -17,10 +17,7 @@ public class Member {
     @Column(name = "lastname")
     private String lastName;
 
-    //One-to-one unidirectional
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "passport_id")
-    private Passport passportId;
+
 
 
     //One-to-one bidirectional
